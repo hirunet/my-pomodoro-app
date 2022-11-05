@@ -24,7 +24,7 @@ import {
 import CircularTimer from "./CircularTimer"
 
 export default function PomodooApp (pops: any) {
-  const MAX_POMODORO_MINUTE = 1;
+  const MAX_POMODORO_MINUTE = 25;
 
   const [isRunning, setIsRunning] = useState(false);
   const [isStarted, setIsStarted] = useState(false);
