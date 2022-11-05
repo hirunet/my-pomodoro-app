@@ -87,7 +87,7 @@ export default function PomodooApp (pops: any) {
       <HStack spacing={4}>
         {nums.map((num: Number) => {
           return (
-            <Icon as={BsClockFill} mr={1} color="teal.500" key={num.toString()}/>
+            <Icon as={BsClockFill} mr={1} color="teal.400" key={num.toString()}/>
           );
         })}
       </HStack>
@@ -112,7 +112,7 @@ export default function PomodooApp (pops: any) {
   }, [timer]);
 
   return (
-    <VStack spacing={8}>
+    <VStack spacing={4}>
       <Text fontSize='5xl'>Working</Text>
       <CircularTimer
         value={progress(timer)}

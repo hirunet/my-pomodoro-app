@@ -8,7 +8,7 @@ import {
 export default function CircularTimer(props: any) {
   return (
     <CircularProgress 
-      color="teal.500"
+      color="teal.400"
       size='300px' 
       thickness='4px'
       {...props}
